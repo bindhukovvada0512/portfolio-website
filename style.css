@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0f172a;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  background: #111827;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+.hero-text {
+  width: 55%;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  color: #38bdf8;
+}
+
+.hero-text h3 {
+  margin: 15px 0;
+}
+
+.hero-text p {
+  line-height: 1.8;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.buttons a {
+  background: #38bdf8;
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+}
+
+.hero-image img {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+section {
+  padding: 40px 10%;
+}
+
+h2 {
+  color: #38bdf8;
+  margin-bottom: 20px;
+}
+
+.skills {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.skills span {
+  background: #1e293b;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+}
